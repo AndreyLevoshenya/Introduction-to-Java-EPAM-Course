@@ -27,7 +27,7 @@ public class Main {
         p = a%10;
         a /= 10;
         while (a>0) {
-            if(a%10 <= p) {
+            if(a%10 >= p) {
                 isInc = false;
                 break;
             }
